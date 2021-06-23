@@ -17,7 +17,7 @@ for name in names:
     stripped_name = name[:-1]
     new_letter = letter.replace('[name]',stripped_name)
     new_letter = new_letter.replace('Angela','Sechaba')
-    with open(f'letter_for_{stripped_name}.txt','w') as output_letter:
+    with open(f'Output/ReadyToSend/letter_for_{stripped_name}.txt','w') as output_letter:
         output_letter.write(new_letter)
     
     
